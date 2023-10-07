@@ -6,10 +6,13 @@ import Home from "../components/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import Services from "../Pages/Services/Services";
+import OurWorks from "../Pages/OurWorks/OurWorks";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -18,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>
+      },
+      {
+        path: "/works",
+        element: <OurWorks></OurWorks>
       },
       {
         path: "/login",

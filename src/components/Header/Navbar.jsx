@@ -5,11 +5,11 @@ const Navbar = () => {
     const navLinks = <>
         <li><NavLink className="text-green-500" to="/">Home</NavLink></li>
         <li><NavLink className="text-green-500" to="/services">Services</NavLink></li>
-        <li><NavLink className="text-green-500" to="/speaker">Speaker</NavLink></li>
+        <li><NavLink className="text-green-500" to="/works">Our Works</NavLink></li>
         <li><NavLink className="text-green-500" to="/location">Location</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 py-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className=" lg:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink to="/login"><button className="bg-green-600  px-5 py-2 rounded-sm font-semibold">Login</button></NavLink>
+                <NavLink to="/login"><button className="bg-green-500 text-white px-5 py-2 rounded-sm font-semibold">Login</button></NavLink>
             </div>
         </div>
     );
