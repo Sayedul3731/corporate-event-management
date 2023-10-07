@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Gabarito: "font-family: 'Gabarito', cursive;"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
