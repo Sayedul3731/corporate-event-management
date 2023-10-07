@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom"
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/services">Services</NavLink></li>
-        <li><NavLink to="/speaker">Speaker</NavLink></li>
-        <li><NavLink to="/location">Location</NavLink></li>
+        <li><NavLink className="text-green-500" to="/">Home</NavLink></li>
+        <li><NavLink className="text-green-500" to="/services">Services</NavLink></li>
+        <li><NavLink className="text-green-500" to="/speaker">Speaker</NavLink></li>
+        <li><NavLink className="text-green-500" to="/location">Location</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink to="/login"><button className="bg-blue-700 text-white px-5 py-2 rounded-sm font-bold font-Gabarito">Login</button></NavLink>
+                <NavLink to="/login"><button className="bg-green-600  px-5 py-2 rounded-sm font-semibold">Login</button></NavLink>
             </div>
         </div>
     );
