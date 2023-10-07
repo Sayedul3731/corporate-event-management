@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "title": "Booth Design and Construction",
+    "image": "https://i.ibb.co/BB6xn5L/1.jpg",
+    "price": 2000,
+    "description": "Our booth design and construction service offers customized and visually appealing booth designs that align with your brand's identity. We handle everything from conceptualization to installation, ensuring your booth stands out at trade shows. Our team of experts will work closely with you to create an engaging and functional exhibit space that captivates your audience and maximizes your trade show success. With attention to detail and quality craftsmanship, we guarantee an impressive booth that leaves a lasting impression on attendees."
+  },
+  {
+    "id": 2,
+    "title": "Graphics and Signage",
+    "image": "https://i.ibb.co/VJGKDtf/4df4b110b5d1bdc9fc708c1c43c8ff00.jpg",
+    "price": 1000,
+    "description": "Elevate your trade show presence with our graphics and signage service. We create eye-catching banners, posters, digital displays, and signage that effectively communicate your brand message. Our design team combines creativity and professionalism to ensure your visual elements align with your marketing goals. Stand out in the crowd and grab the attention of attendees with visually stunning graphics and signage that leave a memorable impression."
+  },
+  {
+    "id": 3,
+    "title": "Furniture Rental",
+    "image": "https://i.ibb.co/LNrYGbj/Furniture-rentals-A-growing-trend-that-is-not-just-for-the-budget-constrained-FB-1200x628-compressed.jpg",
+    "price": 1500,
+    "description": "Enhance the comfort and functionality of your booth with our furniture rental service. Choose from a wide selection of high-quality tables, chairs, counters, and display stands to create a welcoming environment for booth visitors. Our furniture options are not only stylish but also functional, allowing you to engage with attendees in a relaxed and professional setting. Elevate your trade show booth with our premium furniture rental offerings."
+  },
+  {
+    "id": 4,
+    "title": "Audiovisual Services",
+    "image": "https://i.ibb.co/zVdxgJd/service-detail.jpg",
+    "price": 1200,
+    "description": "Transform your trade show booth into an immersive experience with our audiovisual services. We provide top-notch audiovisual equipment, including screens, projectors, monitors, sound systems, and dynamic lighting solutions. Create engaging presentations, product demos, and interactive displays that captivate your audience. Our expert technicians ensure seamless setup and operation, delivering a memorable audiovisual experience that sets your booth apart."
+  },
+  {
+    "id": 5,
+    "title": "Catering and Hospitality",
+    "image": "https://i.ibb.co/dJBXj3B/News-Cake-Masterclass.jpg",
+    "price": 800,
+    "description": "Delight attendees and create a welcoming atmosphere with our catering and hospitality service. We offer a range of catering options, including snacks, beverages, and gourmet meals, tailored to your booth's theme and audience. Elevate the attendee experience by offering refreshments and hospitality services that keep visitors engaged and satisfied. Our professional catering team ensures seamless service, leaving a positive and lasting impression on booth visitors."
+  },
+  {
+    "id": 6,
+    "title": "Technology Integration",
+    "image": "https://i.ibb.co/hBbRmWY/Adobe-Stock-422946225-qgcdcc.jpg",
+    "price": 2500,
+    "description": "Stay on the cutting edge of trade show technology with our integration services. We specialize in incorporating interactive kiosks, virtual reality (VR) experiences, and mobile apps into your booth setup. Engage attendees with innovative technology solutions that showcase your products and services in an immersive way. Our experienced team handles everything from setup to technical support, ensuring a seamless and captivating technological experience for your audience."
+  }
+]
