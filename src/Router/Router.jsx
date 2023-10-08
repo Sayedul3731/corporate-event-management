@@ -9,6 +9,7 @@ import Services from "../Pages/Services/Services";
 import OurWorks from "../Pages/OurWorks/OurWorks";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Location from "../Pages/Location/Location";
+import ServiceCardDetails from "../components/Service/ServiceCardDetails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>
+      },
+      {
+        path: "/serviceCard/:id",
+        element: <ServiceCardDetails></ServiceCardDetails>,
+        loader: () => fetch('/data.json')
       },
       {
         path: "/works",

@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom"
 
 const Service = ({ serviceCard }) => {
-    const { image, title, price, description } = serviceCard;
+    const { id, image, title, price, description } = serviceCard;
 
     return (
         <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-10">
@@ -23,13 +24,15 @@ const Service = ({ serviceCard }) => {
                 </p>
             </div>
             <div className="p-4 pt-0">
-                <button
-                    className="select-none rounded-sm bg-green-500 w-full py-3 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-400/20 transition-all hover:shadow-lg hover:shadow-green-400/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                    type="button"
-                    data-ripple-light="true"
-                >
-                    View Details
-                </button>
+                <Link to={`/serviceCard/${id}`}>
+                    <button
+                        className="select-none rounded-sm bg-green-500 w-full py-3 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-400/20 transition-all hover:shadow-lg hover:shadow-green-400/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        type="button"
+                        data-ripple-light="true"
+                    >
+                        View Details
+                    </button>
+                </Link>
             </div>
         </div>
     );
