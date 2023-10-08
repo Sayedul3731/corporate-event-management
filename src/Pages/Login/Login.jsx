@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { useContext, useState } from "react"
-
+import swal from 'sweetalert';
 
 const Login = () => {
 
@@ -13,9 +13,11 @@ const Login = () => {
         signIn(email, password)
         .then( result => {
             console.log(result.user);
+            swal("Congratulations!", "You Logged In Successfully!", "success");
         })
         .catch(error => {
             console.error(error);
+            swal("Oh!", "Your Log in is not success!", "error");
         })
     }
     return (
