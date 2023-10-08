@@ -22,6 +22,7 @@ const Register = () => {
         })
         .catch( error => {
             console.error(error);
+            swal("Oh!", "Your Registration is not Success!", "error");
         })
     }
     return (
