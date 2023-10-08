@@ -8,6 +8,7 @@ import Register from "../Pages/Register/Register";
 import Services from "../Pages/Services/Services";
 import OurWorks from "../Pages/OurWorks/OurWorks";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
+import Location from "../Pages/Location/Location";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/works",
         element: <OurWorks></OurWorks>
+      },
+      {
+        path: "/location",
+        element: <Location></Location>
       },
       {
         path: "/login",
