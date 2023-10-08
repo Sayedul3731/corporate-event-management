@@ -10,7 +10,7 @@ const SelectedCardDetails = ({card}) => {
         swal("Thank You!", "But It is not working!", "success");
     }
     return (
-        <div className="relative border h-auto md:h-[90vh] lg:h-[90vh] mt-10 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-10">
+        <div className="relative border pt-4 h-auto md:h-[90vh] lg:h-[90vh] mt-10 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-10">
             <div className="relative mx-4 overflow-hidden  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                 <img className="w-full h-full"
                     src={image}

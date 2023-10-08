@@ -3,22 +3,23 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import { useContext, useState } from "react"
 import swal from 'sweetalert';
 import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs"
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
 
     const {userCreate}  = useContext(AuthContext)
     
     const [name, setName] = useState("")
+    const [photo, setPhoto] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [photo, setPhoto] = useState("")
     const [show, setShow] = useState(false)
     const [accepted, setAccepted] = useState(false)
-    // const [err, setErr] = useState("")
+     
+    
 
     const handleRegister = (e) => {
         e.preventDefault()
-        console.log(name,photo, accepted);
         if(!/(?=.*[A-Z])(?=.*[!@#$%^&*]).{6,}/.test(password)){
             swal("Oh!", "Password Should be at least 6 character, a capital letter and a special character.")
             return;
@@ -30,6 +31,17 @@ const Register = () => {
         .then( result => {
             console.log(result.user);
             swal("Congratulations!", "You Registered Successfully!", "success");
+            updateProfile(result.user, {
+                displayName: name,
+                photoURL: photo
+            })
+            .then( () => {
+                console.log('profile updated');
+            })
+            .catch(error => {
+                console.error(error);
+            })
+        
         })
         .catch( error => {
             console.error(error);
