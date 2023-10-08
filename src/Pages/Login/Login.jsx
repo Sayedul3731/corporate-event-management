@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col">
-                <div className="text-center lg:text-left">
+                <div className="text-center lg:text-left mb-8">
                     <h1 className="text-5xl font-bold">Login now!</h1>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -30,7 +30,7 @@ const Login = () => {
                            </div>
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn btn-primary">Login</button>
+                            <button className="btn bg-green-400 text-white">Login</button>
                         </div>
                         <p>Do not have an account? Please <Link to="/register"><span className="text-green-400">Register</span></Link></p>
                     </form>
