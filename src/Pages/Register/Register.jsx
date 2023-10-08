@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { AuthContext } from "../../Provider/AuthProvider";
 import { useContext, useState } from "react"
 import swal from 'sweetalert';
+import { BsEyeFill, BsEyeSlashFill } from "react-icons/bs"
 
 const Register = () => {
 
@@ -11,10 +12,20 @@ const Register = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [photo, setPhoto] = useState("")
+    const [show, setShow] = useState(false)
+    const [accepted, setAccepted] = useState(false)
+    // const [err, setErr] = useState("")
 
     const handleRegister = (e) => {
         e.preventDefault()
-        console.log(name,photo);
+        console.log(name,photo, accepted);
+        if(!/(?=.*[A-Z])(?=.*[!@#$%^&*]).{6,}/.test(password)){
+            swal("Oh!", "Password Should be at least 6 character, a capital letter and a special character.")
+            return;
+        }else if(accepted !== true){
+            swal("Oh!", "Please accept our Terms and Conditions", "error")
+            return;
+        }
         userCreate(email, password)
         .then( result => {
             console.log(result.user);
@@ -52,13 +63,16 @@ const Register = () => {
                             <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email" name="email" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Password</span>
-                            </label>
-                            <input onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Password" name="password" className="input input-bordered" required />
+                        <div className="relative">
+                                <label className="label">
+                                    <span className="label-text">Password</span>
+                                </label>
+                                <input onChange={(e) => setPassword(e.target.value)} type={show ? 'text' : 'password'} placeholder="Password" name="password" className="input input-bordered w-full" required />
+                                <span className="absolute -ml-6 mt-4" onClick={() => setShow(!show)}>{ show ? <BsEyeSlashFill></BsEyeSlashFill> : <BsEyeFill></BsEyeFill>}</span>
+                            </div>
                             <div className="flex gap-2 mt-3">
-                                <input type="checkbox" name="terms" id="terms" />
-                                <p>Accept our terms and conditions</p>
+                                <input onChange={(e) => setAccepted(e.target.checked)} type="checkbox" name="terms" id="terms" required/>
+                                <label htmlFor="terms">Accept our <a href=""> Terms and Conditions</a></label>
                             </div>
                         </div>
                         <div className="form-control mt-6">
