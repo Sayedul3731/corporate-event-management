@@ -21,6 +21,7 @@ const Navbar = () => {
         <li><NavLink className="text-green-500" to="/services">Services</NavLink></li>
         <li><NavLink className="text-green-500" to="/works">Our Works</NavLink></li>
         <li><NavLink className="text-green-500" to="/location">Location</NavLink></li>
+        <li><NavLink className="text-green-500" to="/clientFeedback">Client Feedback</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 py-4">

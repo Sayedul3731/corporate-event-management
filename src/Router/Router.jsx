@@ -11,6 +11,7 @@ import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Location from "../Pages/Location/Location";
 import ServiceCardDetails from "../components/Service/ServiceCardDetails";
 import PrivetRoute from "./PrivetRoute";
+import ClientFeedback from "../Pages/ClientFeedback/ClientFeedback";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,6 +46,11 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/clientFeedback",
+        element: <ClientFeedback></ClientFeedback>,
+        loader: () => fetch('/feedback.json')
       }
     ]
   },

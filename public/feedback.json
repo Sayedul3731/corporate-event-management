@@ -1,0 +1,52 @@
+  [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/RYJj9Ly/foto-sushi-6anudmp-ILw4-unsplash.jpg",
+      "description": "Excellent service! The team went above and beyond to meet our project requirements.",
+      "name": "John Doe",
+      "jobTitle": "Marketing Manager",
+      "company": "Creative Solutions Group"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/7Xcf94n/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
+      "description": "We were impressed with the quality of work and prompt communication throughout the project.",
+      "name": "Alice Smith",
+      "jobTitle": "Product Manager",
+      "company": "Tech Innovations Inc."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/7Xcf94n/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
+      "description": "The team's expertise and dedication helped us achieve outstanding results.",
+      "name": "Bob Johnson",
+      "jobTitle": "CEO",
+      "company": "Global Enterprise Solutions"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/yS5QTc7/susanna-marsiglia-CZw-Xv-Mh-FLk8-unsplash.jpg",
+      "description": "We are very satisfied with the final product. It exceeded our expectations.",
+      "name": "Emily Davis",
+      "jobTitle": "Designer",
+      "company": "DesignCraft Studios"
+    },
+    {
+      "id": 5,
+      "image":"https://i.ibb.co/Ks6VpBD/aatik-tasneem-7om-HUGhhm-Z0-unsplash.jpg",
+      "description": "Great collaboration! Their attention to detail was remarkable.",
+      "name": "Michael Wilson",
+      "jobTitle": "Project Manager",
+      "company": "Innovative Tech Solutions"
+    },
+    {
+      "id": 6,
+      "image":  "https://i.ibb.co/WBz9XZt/michael-dam-m-EZ3-Po-FGs-k-unsplash-1.jpg",
+      "description": "The team's professionalism and creativity made our project a success.",
+      "name": "Sophia Brown",
+      "jobTitle": "Software Engineer",
+      "company": "Digital Dynamics"
+    }
+  ]
+  
+  
