@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import OurWork from "./OurWork";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 
 const OurWorks = () => {
@@ -9,10 +11,13 @@ const OurWorks = () => {
             .then(res => res.json())
             .then(data => setWorksData(data))
     }, [])
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div>
-            <h1 className="text-5xl text-center font-semibold">Our Works</h1>
-            <p className="text-gray-500 text-center mt-3">We have delivered the following works to our client.
+            <h1  data-aos="fade-left" className="text-5xl text-center font-semibold">Our Works</h1>
+            <p data-aos="fade-right" className="text-gray-500 text-center mt-3">We have delivered the following works to our client.
                 You are invited to view these works.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 mx-2 md:mx-4 lg:mx-0">
                 {

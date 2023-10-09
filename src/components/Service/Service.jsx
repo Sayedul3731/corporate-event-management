@@ -1,11 +1,19 @@
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom"
+import { useEffect } from 'react';
+import  AOS  from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Service = ({ serviceCard }) => {
     const { id, image, title, price, description } = serviceCard;
 
+  useEffect(() => {
+    AOS.init();
+  },[])
+
     return (
-        <div className="relative flex flex-col rounded-xl bg-white pt-4 bg-clip-border text-gray-700 shadow-md mb-10">
+        <div data-aos="zoom-in-up" className='relative flex flex-col rounded-xl bg-white pt-4 bg-clip-border text-gray-700 shadow-md mb-10'>
             <div className="relative mx-4 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                 <img
                     src={image}
