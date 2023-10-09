@@ -14,10 +14,12 @@ Explain: Here declare a function named sum which is two parameter a and b. When 
 3. Answer: A: ['🍕', '🍫', '🥑', '🍔']
 ###
 Explain: Here declare an array named food which is 4 items and an object named info which is a property that's key is favoriteFood and value is food[0] that means "🍕". In the 3rd line reassign a value of info.favoriteFood to "🍝" then change the value of favoriteFood in the info object from "🍕" to "🍝".But when console the array food then it's value is not change.Because When reassigning the value of info.favoriteFood dose not effect the orginal food array. Because they are separate value with there own values.
+
 4.
 Answer: B: Hi there, undefined
 ### 
 Explain: Here declare a function named sayHi which is a parameter `name`. The function return `Hi there, ${name}`. When console the function or call then answer is `Hi there, undefined`.Because when call the function by sayHi() then no parameter pass the function that means parameter is not defined that's why the result is 'Hi there, undefined'.
+
 5. Answer: C: 3
 ### 
 Explain: There is an array it contains 4 elements [0,1,2,3] and a variable initilized  to 0. Then use the forEach method to iterate through each element of the nums array and increment the count variable by 1 if the element num is truthy.
