@@ -17,17 +17,17 @@ const Navbar = () => {
 
 
     const navLinks = <>
-        <li><NavLink className="text-green-500" to="/">Home</NavLink></li>
-        <li><NavLink className="text-green-500" to="/services">Services</NavLink></li>
-        <li><NavLink className="text-green-500" to="/works">Our Works</NavLink></li>
-        <li><NavLink className="text-green-500" to="/location">Location</NavLink></li>
+        <li><NavLink className="text-blue-500 md:text-green-500" to="/">Home</NavLink></li>
+        <li><NavLink className="text-blue-500 md:text-green-500" to="/services">Services</NavLink></li>
+        <li><NavLink className="text-blue-500 md:text-green-500" to="/works">Our Works</NavLink></li>
+        <li><NavLink className="text-blue-500 md:text-green-500" to="/location">Location</NavLink></li>
        {
-        user ?  <> <li><NavLink className="text-green-500" to="/clientFeedback">Client Feedback</NavLink></li>
-        <li><NavLink className="text-green-500" to="/members">Team Members</NavLink></li></> : ''
+        user ?  <> <li><NavLink className="text-blue-500 md:text-green-500" to="/clientFeedback">Client Feedback</NavLink></li>
+        <li><NavLink className="text-blue-500 md:text-green-500" to="/members">Team Members</NavLink></li></> : ''
        }
     </>
     return (
-        <div className="navbar bg-base-100 py-4">
+        <div className="navbar  md:bg-base-100 py-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className=" lg:hidden">
@@ -46,14 +46,14 @@ const Navbar = () => {
                     {navLinks}
                 </ul>
             </div>
-            <div className="md:w-2/4 lg:w-2/4">
+            <div className=" ml-5 md:ml-0 md:w-2/4 lg:w-2/4">
                 {
-                    user ? <p className="w-full lg:w-full flex justify-center items-center gap-4"> <span>{user.displayName}</span> <img className="w-[50px] h-[50px] rounded-full" src={user.photoURL} alt="" /></p> : "" 
+                    user ? <p className="w-full lg:w-full flex justify-center items-center md:gap-4"> <span>{user.displayName}</span> <img className="w-[50px] h-[50px] rounded-full" src={user.photoURL} alt="" /></p> : "" 
                 }
             </div>
             <div className="navbar-end">
                 {
-                    user ? <button onClick={handleSignOut} className="bg-green-500 text-white px-5 py-2 rounded-sm font-semibold">Log Out</button> : <NavLink to="/login"><button className="bg-green-500 text-white px-5 py-2 rounded-sm font-semibold">Login</button></NavLink>
+                    user ? <button onClick={handleSignOut} className="bg-blue-500 md:bg-green-500 text-white px-2 py-1  md:px-5 md:py-2 rounded-sm font-semibold">Log Out</button> : <NavLink to="/login"><button className="bg-blue-500 md:bg-green-500 text-white px-2 py-1  md:px-5 md:py-2 rounded-sm font-semibold">Login</button></NavLink>
                 }
             </div>
         </div>

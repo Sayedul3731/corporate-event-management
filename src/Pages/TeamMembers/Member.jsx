@@ -4,7 +4,7 @@ const Member = ({ member }) => {
     console.log(member);
     const { image,name , title } = member;
     return (
-        <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative flex  flex-col rounded-xl bg-blue-300 md:bg-slate-300 bg-clip-border text-gray-700 shadow-md">
             <div className=" mx-4 mt-4 h-[500px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                 <img className="w-full h-full" src={image} alt="profile-picture" />
             </div>
