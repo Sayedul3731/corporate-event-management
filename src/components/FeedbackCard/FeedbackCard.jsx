@@ -1,9 +1,18 @@
 import PropTypes from "prop-types"
+import { useEffect } from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const FeedbackCard = ({ card }) => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     const { image, name, description, company, jobTitle } = card;
     return (
-        <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-blue-300 md:bg-slate-300  bg-transparent bg-clip-border text-gray-700 shadow-lg p-3">
+        <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+            className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-blue-300 md:bg-slate-300  bg-transparent bg-clip-border text-gray-700 shadow-lg p-3">
             <div className="relative mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 text-gray-700 shadow-none">
                 <img
                     src={image}

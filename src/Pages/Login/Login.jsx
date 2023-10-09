@@ -58,9 +58,9 @@ const Login = () => {
                             <label className="label">
                                 <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
-                            <div className="flex gap-2">
-                                <input type="checkbox" name="terms" id="terms" />
-                                <p>Accept our terms and conditions</p>
+                            <div className="flex gap-2 mt-3">
+                                <input type="checkbox" name="terms" id="terms" required/>
+                                <label htmlFor="terms">Accept our <a href=""> Terms and Conditions</a></label>
                             </div>
                         </div>
                         <div className="form-control mt-6">
