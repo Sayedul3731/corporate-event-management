@@ -22,7 +22,8 @@ Explain: There is an array it contains 4 elements [0,1,2,3] and a variable initi
 
 Explanation 5 features of my 'corporate event management' project:
 
-*introduction: My project name is 'corporate event management'. When a user come to my project
+## introduction: 
+My project name is 'corporate event management'. When a user come to my project
  then he/she will see a navbar which 4 pages 'Home', 'Services', 'Our Works',
  'Location' and will see a 'Login' button in the right side and a logo in the left
  side of our company. If the user registered or logged in so will see two extra 
