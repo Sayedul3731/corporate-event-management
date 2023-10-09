@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "John Boe",
+      "image": "https://i.ibb.co/VqnzrnB/member1.jpg",
+      "title" : "CEO"
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "image": "https://i.ibb.co/4fz1Pxz/member2.jpg",
+      "title" : "Chief Financial Officer"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "image": "https://i.ibb.co/7t4XDDJ/member3.jpg",
+      "title" : "Chief Operating Officer"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "image": "https://i.ibb.co/brcw5PX/member4.jpg",
+      "title" : "Chief Technology Officer"
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "image": "https://i.ibb.co/mB0bdRV/member5.jpg",
+      "title" : "Chief Marketing Officer"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Brown",
+      "image": "https://i.ibb.co/hYtKpzz/member6.jpg",
+      "title" : "Human Resources Manager"
+    },
+    {
+      "id": 7,
+      "name": "David Lee",
+      "image": "https://i.ibb.co/51mW9TL/member7.jpg",
+      "title" : "Software Engineer"
+    },
+    {
+      "id": 8,
+      "name": "Emma Martinez",
+      "image": "https://i.ibb.co/0yNn7D9/member8.jpg",
+      "title" : "Product Manager"
+    },
+    {
+      "id": 9,
+      "name": "William Adams",
+      "image": "https://i.ibb.co/WncSggV/member9.jpg",
+      "title" : "Sales Representative"
+    }
+  ]
+  

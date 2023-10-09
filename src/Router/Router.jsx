@@ -12,6 +12,7 @@ import Location from "../Pages/Location/Location";
 import ServiceCardDetails from "../components/Service/ServiceCardDetails";
 import PrivetRoute from "./PrivetRoute";
 import ClientFeedback from "../Pages/ClientFeedback/ClientFeedback";
+import TeamMembers from "../Pages/TeamMembers/TeamMembers";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -51,6 +52,11 @@ const router = createBrowserRouter([
         path: "/clientFeedback",
         element: <ClientFeedback></ClientFeedback>,
         loader: () => fetch('/feedback.json')
+      },
+      {
+        path: "/members",
+        element: <TeamMembers></TeamMembers>,
+        loader: () => fetch('/team.json')
       }
     ]
   },
