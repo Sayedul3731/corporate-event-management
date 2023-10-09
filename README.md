@@ -61,6 +61,7 @@ When a user try to registration and in the time of put his password he/she would
 6 character, a capital letter and a special letter.If the user will not put at least 
 6 character , a capital letter and a special letter then show a sweet alert 'Please should be at least 
 6 character, a capital letter and a special letter.
+###
 Thank you! For read my project features.Best wishes for you.
 
 
