@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { useContext, useState } from "react"
 import swal from 'sweetalert';
@@ -9,6 +9,9 @@ const Login = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [show, setShow] = useState(false)
+    const location = useLocation()
+    console.log(location);
+    const navigate = useNavigate()
 
     const { signIn } = useContext(AuthContext)
     const { logInWithGoogle } = useContext(AuthContext)
@@ -16,6 +19,8 @@ const Login = () => {
         logInWithGoogle()
             .then(result => {
                 console.log(result.user)
+                swal("Thank You!", "You Logged In Successfully!", "success");
+                navigate(location?.state ? location.state : "/")
             })
             .catch(error => {
                 console.error(error);
@@ -27,6 +32,7 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 swal("Thank You!", "You Logged In Successfully!", "success");
+                navigate(location?.state ? location.state : "/")
             })
             .catch(error => {
                 // console.error(error);
@@ -64,12 +70,12 @@ const Login = () => {
                             </div>
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={handleSignIn} className="btn bg-green-400 text-white">Login</button>
+                            <button onClick={handleSignIn} className="btn bg-blue-500 md:bg-green-400 text-white">Login</button>
                         </div>
-                        <p>Do not have an account? Please <Link to="/register"><span className="text-green-400">Register</span></Link></p>
+                        <p>Do not have an account? Please <Link to="/register"><span className="text-blue-500 md:text-green-400">Register</span></Link></p>
                     </form>
                     <div className="relative w-full -mt-8 flex justify-center items-center">
-                    <button onClick={handleLogInWithGoogle} className="border w-5/6 m-5 py-1 rounded-xl">Sign In With Google</button>
+                    <button onClick={handleLogInWithGoogle} className="border w-5/6 m-5 py-1 rounded-xl font-semibold">Sign In With Google</button>
                     <p className="-ml-48 absolute"><BsGoogle></BsGoogle></p>
                     
                     </div>

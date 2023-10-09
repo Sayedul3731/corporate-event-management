@@ -1,8 +1,10 @@
-[{
+[
+  {
     "id": 1,
     "title": "Booth Design and Construction",
     "image": "https://i.ibb.co/WgsBhXG/gian-hang-trien-lam-made-in-belarus-4.jpg",
     "price": 2000,
+    "service_provided": 51,
     "description": "Our booth design and construction service offers customized and visually appealing booth designs that align with your brand's identity. We handle everything from conceptualization to installation, ensuring your booth stands out at trade shows. Our team of experts will work closely with you to create an engaging and functional exhibit space that captivates your audience and maximizes your trade show success. With attention to detail and quality craftsmanship, we guarantee an impressive booth that leaves a lasting impression on attendees."
   },
   {
@@ -10,6 +12,7 @@
     "title": "Booth Design and Construction",
     "image": "https://i.ibb.co/F7HsjYk/6a6e2dc4d1259e5bac455167597eee34.jpg",
     "price": 2000,
+    "service_provided": 42,
     "description": "Our booth design and construction service offers customized and visually appealing booth designs that align with your brand's identity. We handle everything from conceptualization to installation, ensuring your booth stands out at trade shows. Our team of experts will work closely with you to create an engaging and functional exhibit space that captivates your audience and maximizes your trade show success. With attention to detail and quality craftsmanship, we guarantee an impressive booth that leaves a lasting impression on attendees."
   },
   {
@@ -17,6 +20,7 @@
     "title": "Graphics and Signage",
     "image": "https://i.ibb.co/TKg56J1/4d4964-43a79a8009df47ca9fb47dc579de441f-mv2.webp",
     "price": 1000,
+    "service_provided": 40,
     "description": "Elevate your trade show presence with our graphics and signage service. We create eye-catching banners, posters, digital displays, and signage that effectively communicate your brand message. Our design team combines creativity and professionalism to ensure your visual elements align with your marketing goals. Stand out in the crowd and grab the attention of attendees with visually stunning graphics and signage that leave a memorable impression."
   },
   {
@@ -24,6 +28,7 @@
     "title": "Graphics and Signage",
     "image": "https://i.ibb.co/Y7gKDpC/46e8c81e7761c2ef27c7cae57a8c0ea1.jpg",
     "price": 1000,
+    "service_provided": 43,
     "description": "Elevate your trade show presence with our graphics and signage service. We create eye-catching banners, posters, digital displays, and signage that effectively communicate your brand message. Our design team combines creativity and professionalism to ensure your visual elements align with your marketing goals. Stand out in the crowd and grab the attention of attendees with visually stunning graphics and signage that leave a memorable impression."
   },
   {
@@ -31,6 +36,7 @@
     "title": "Furniture Rental",
     "image": "https://i.ibb.co/7X87DZh/3up-clearance1-600.jpg",
     "price": 1500,
+    "service_provided": 50,
     "description": "Enhance the comfort and functionality of your booth with our furniture rental service. Choose from a wide selection of high-quality tables, chairs, counters, and display stands to create a welcoming environment for booth visitors. Our furniture options are not only stylish but also functional, allowing you to engage with attendees in a relaxed and professional setting. Elevate your trade show booth with our premium furniture rental offerings."
   },
   {
@@ -38,6 +44,7 @@
     "title": "Furniture Rental",
     "image": "https://i.ibb.co/mD7rHcF/addison-sofa.jpg",
     "price": 1500,
+    "service_provided": 45,
     "description": "Enhance the comfort and functionality of your booth with our furniture rental service. Choose from a wide selection of high-quality tables, chairs, counters, and display stands to create a welcoming environment for booth visitors. Our furniture options are not only stylish but also functional, allowing you to engage with attendees in a relaxed and professional setting. Elevate your trade show booth with our premium furniture rental offerings."
   },
   {
@@ -45,6 +52,7 @@
     "title": "Audiovisual Services",
     "image": "https://i.ibb.co/jJ75KQ3/images-2.jpg",
     "price": 1200,
+    "service_provided": 48,
     "description": "Transform your trade show booth into an immersive experience with our audiovisual services. We provide top-notch audiovisual equipment, including screens, projectors, monitors, sound systems, and dynamic lighting solutions. Create engaging presentations, product demos, and interactive displays that captivate your audience. Our expert technicians ensure seamless setup and operation, delivering a memorable audiovisual experience that sets your booth apart."
   },
   {
@@ -52,6 +60,7 @@
     "title": "Audiovisual Services",
     "image": "https://i.ibb.co/4sWPdLW/images-3.jpg",
     "price": 1200,
+    "service_provided": 44,
     "description": "Transform your trade show booth into an immersive experience with our audiovisual services. We provide top-notch audiovisual equipment, including screens, projectors, monitors, sound systems, and dynamic lighting solutions. Create engaging presentations, product demos, and interactive displays that captivate your audience. Our expert technicians ensure seamless setup and operation, delivering a memorable audiovisual experience that sets your booth apart."
   },
   {
@@ -59,6 +68,7 @@
     "title": "Catering and Hospitality",
     "image": "https://i.ibb.co/VqC66hr/Catering-And-Hospitality-Team-KSB.jpg",
     "price": 800,
+    "service_provided": 49,
     "description": "Delight attendees and create a welcoming atmosphere with our catering and hospitality service. We offer a range of catering options, including snacks, beverages, and gourmet meals, tailored to your booth's theme and audience. Elevate the attendee experience by offering refreshments and hospitality services that keep visitors engaged and satisfied. Our professional catering team ensures seamless service, leaving a positive and lasting impression on booth visitors."
   },
   {
@@ -66,6 +76,7 @@
     "title": "Catering and Hospitality",
     "image": "https://i.ibb.co/HKjsMZq/download-3.jpg",
     "price": 800,
+    "service_provided": 46,
     "description": "Delight attendees and create a welcoming atmosphere with our catering and hospitality service. We offer a range of catering options, including snacks, beverages, and gourmet meals, tailored to your booth's theme and audience. Elevate the attendee experience by offering refreshments and hospitality services that keep visitors engaged and satisfied. Our professional catering team ensures seamless service, leaving a positive and lasting impression on booth visitors."
   },
   {
@@ -73,6 +84,7 @@
     "title": "Technology Integration",
     "image": "https://i.ibb.co/BL92h7B/Elementary-Classroom-Technology-Implementation.png",
     "price": 2500,
+    "service_provided": 40,
     "description": "Stay on the cutting edge of trade show technology with our integration services. We specialize in incorporating interactive kiosks, virtual reality (VR) experiences, and mobile apps into your booth setup. Engage attendees with innovative technology solutions that showcase your products and services in an immersive way. Our experienced team handles everything from setup to technical support, ensuring a seamless and captivating technological experience for your audience."
   },
   {
@@ -80,6 +92,7 @@
     "title": "Technology Integration",
     "image": "https://i.ibb.co/CBYqC65/4-3.png",
     "price": 2500,
+    "service_provided": 48,
     "description": "Stay on the cutting edge of trade show technology with our integration services. We specialize in incorporating interactive kiosks, virtual reality (VR) experiences, and mobile apps into your booth setup. Engage attendees with innovative technology solutions that showcase your products and services in an immersive way. Our experienced team handles everything from setup to technical support, ensuring a seamless and captivating technological experience for your audience."
   }
 ]

@@ -88,9 +88,9 @@ const Register = () => {
                             </div>
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={handleRegister} className="btn bg-green-400 text-white">Register</button>
+                            <button onClick={handleRegister} className="btn bg-blue-500 md:bg-green-400 text-white">Register</button>
                         </div>
-                        <p>Already have an account? Please <Link to="/login"><span className="text-green-400">Login</span></Link></p>
+                        <p>Already have an account? Please <Link to="/login"><span className=" text-blue-500 md:text-green-400">Login</span></Link></p>
                     </form>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const FeedbackCard = ({ card }) => {
     }, [])
     const { image, name, description, company, jobTitle } = card;
     return (
-        <div  data-aos="flip-left"
+        <div  data-aos="zoom-in-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
             className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-blue-300 md:bg-slate-300  bg-transparent bg-clip-border text-gray-700 shadow-lg p-3">

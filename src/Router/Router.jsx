@@ -13,6 +13,7 @@ import ServiceCardDetails from "../components/Service/ServiceCardDetails";
 import PrivetRoute from "./PrivetRoute";
 import ClientFeedback from "../Pages/ClientFeedback/ClientFeedback";
 import TeamMembers from "../Pages/TeamMembers/TeamMembers";
+import WorkCardDetails from "../Pages/OurWorks/WorkCardDetails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "/works",
         element: <OurWorks></OurWorks>
+      },
+      {
+        path: "/workCard/:id",
+        element: <PrivetRoute><WorkCardDetails></WorkCardDetails></PrivetRoute>,
+        loader: () => fetch('/worked.json')
       },
       {
         path: "/location",
