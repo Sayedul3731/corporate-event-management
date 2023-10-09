@@ -2,9 +2,10 @@
 # Live Site Link : 
 https://corporate-event-manageme-92f84.web.app/
 
-Answer here of MCQ TEST : 
+## Answer here of MCQ TEST : 
 1.
 Answer: A: {}
+### 
 Explain: We know that let variable is a block scope and cannot be redeclared. Here defined a variable (greeting) with let and assign a value ({}). Which is right decleare so when we console that the answer is the assigned value which is {}.
 
 2.
@@ -35,16 +36,16 @@ his name and his photoURL when registered. When user click on the 'Home' will se
 'Home Page' content where are a 'Banner',a 'Our Services' Section, a 'Our Works' 
 section, 'Location' section and a 'Footer'.In the same way when click on the 'Client
  Feedback' or 'Team Members' will see the specific routes data.
-## Route Explain:
+* Route Explain:
 When a user click on the 'Services' in the navbar will see the Service Cards, 
 when click on the 'Our Works' in the navbar will see the work cards and if click on 
 the 'Location' will see our location.In the same way see client feedback and team members by 
 clicking 'Client Feedback' and 'Team Members' route.
-## View Details Button:
+* View Details Button:
 In the 'Services' section every service card have a 'View Details' Button. If a
  user registerd or logged in will see the card details.If not registered or logged in
 will not see the card details.
-## Log In:
+* Log In:
 When a user go to log in and click on the 'Login' button then he/she will go to log in
 page. If the user already registered so user will log in successfully and show a sweet
 alert 'Thank You!' 'Your logged in successfully.' But if the user is not registered or
@@ -53,7 +54,7 @@ If the user not registered so he/she will go to registration page by clicking 'R
 the below of the 'Login' button of the Log in form.When a user will be registration would have 
 user name, photoURL, email, password and must accept checkbox. If the user will not accept 
 the checkbox will show a sweet alert 'Oh!' and 'Please accept our Terms and Conditions'.
-## Password:
+* Password:
 When a user try to registration and in the time of put his password he/she would have at least 
 6 character, a capital letter and a special letter.If the user will not put at least 
 6 character , a capital letter and a special letter then show a sweet alert 'Please should be at least 
