@@ -50,12 +50,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/clientFeedback",
-        element: <ClientFeedback></ClientFeedback>,
+        element: <PrivetRoute><ClientFeedback></ClientFeedback></PrivetRoute>,
         loader: () => fetch('/feedback.json')
       },
       {
         path: "/members",
-        element: <TeamMembers></TeamMembers>,
+        element: <PrivetRoute><TeamMembers></TeamMembers></PrivetRoute>,
         loader: () => fetch('/team.json')
       }
     ]

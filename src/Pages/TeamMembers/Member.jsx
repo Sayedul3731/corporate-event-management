@@ -5,8 +5,8 @@ const Member = ({ member }) => {
     const { image,name , title } = member;
     return (
         <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-            <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
-                <img className="w-full object-cover" src={image} alt="profile-picture" />
+            <div className=" mx-4 mt-4 h-[500px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+                <img className="w-full h-full" src={image} alt="profile-picture" />
             </div>
             <div className="p-6 text-center">
                 <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
