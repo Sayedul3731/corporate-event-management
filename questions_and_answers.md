@@ -1,4 +1,4 @@
-## Answer Here of MCQ TEST : 
+## Answer of MCQ TEST : 
 1.Answer: A: {}
 ### 
 Explain: We know that `let` variable is a `block scope` and cannot be `redeclared`. Here defined a variable `greeting` with `let` and assign a value `{}`. Which is right decleare so when we console that the answer is the assigned value which is `{}`.
