@@ -12,7 +12,6 @@ const ClientFeedback = () => {
     }, [])
 
     const feedbacks = useLoaderData()
-    console.log(feedbacks);
     return (
         <div>
             <h1 data-aos="fade-down" className="text-4xl text-center font-semibold mt-10">Client Feedback</h1>

@@ -16,10 +16,10 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="mt-20">
-            <h1 data-aos="fade-right" className="text-5xl text-center font-semibold">Our Services</h1>
-            <p data-aos="fade-left" className="text-gray-500 text-center mt-3">We provide the following services. We strive to provide the highest level of service. Hope you like our services.</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 mx-2 md:mx-4 lg:mx-0">
+        <div className="mt-10 md:mt-16">
+            <h1 data-aos="fade-up" className="text-5xl text-center font-semibold">Our Services</h1>
+            <p data-aos="fade-down" className="text-gray-500 text-center mt-3">We provide the following services. We strive to provide the highest level of service. Hope you like our services.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
                 {
                     data.map(serviceCard => <Service key={serviceCard.id} serviceCard={serviceCard}></Service>)
                 }
