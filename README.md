@@ -8,9 +8,9 @@ https://corporate-event-manageme-92f84.web.app/
 My project name is `corporate event management`. When a user come to my project
  then he/she will see a `navbar` which 4 pages `Home`, `Services`, `Our Works`,
 `Location` and will see a `Login` button in the right side and a `logo` in the left
- side of our company. If the user `registered` or `logged in` so will see two extra 
+ side of our company.If the user `registered` or `logged in` so will see two extra 
 pages named `Client Feedback` and `Team Members` and at the same time will see a `Log Out`
- button, `user name` and `user profile` in the right side of navbar if user put
+ button, `User name` and `user profile` in the right side of navbar if user put
 his `name` and his `photoURL` when `registered`. When user click on the `Home` will see 
 `Home Page` content where are a `Banner`, a `Our Services` Section, a `Our Works` 
 section, `Location` section and a '`Footer`.In the same way when `click` on the `Client
