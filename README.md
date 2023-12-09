@@ -41,6 +41,7 @@ When a user try to `registration` and in the time of `put` his `password` he/she
 * I used some technology in this project such as JavaScript as programming language, React.js, Tailwind css, DaisyUI as front-end.
 * In this project I used some package like `aos`, `react-dom`, `react-router-dom`, `react-hook-form`, `react-icons`,`sweetalert2` etc.
 * The client side deployed in firebase.
+  
 Thank you! For read my project features & technologies. Best wishes for you.
 
 
