@@ -1,4 +1,4 @@
-# corporate event management
+# Corporate Event Management
 # Live Site Link : https://corporate-event-manageme-92f84.web.app/
 
 # Explanation 5 features of my project:
