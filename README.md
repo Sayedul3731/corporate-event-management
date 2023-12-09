@@ -37,7 +37,10 @@ When a user try to `registration` and in the time of `put` his `password` he/she
 `6 characte`r, `a capital letter` and `a special letter`.If the user will not put at least 
 `6 character` , `a capital letter` and `a special letter` then show a `sweet alert` `Please should be at least 
 6 character, a capital letter and a special letter.`
-###
+## Technologies: 
+* I used many technology in this project such as JavaScript as programming language, React.js, Tailwind css, DaisyUI as front-end and mongodb, express.js, node.js as backend.
+* In this project I used some package like firebase,react-dom,react-router-dom,react-hook-form,react-icons,sweetalert2 etc.
+* The server side deployed in vercel and client side deployed in firebase. Thank you! For read my project features & technologies. Best wishes for you.
 Thank you! For read my project features. Best wishes for you.
 
 
