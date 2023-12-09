@@ -1,7 +1,7 @@
 # Corporate Event Management
-# Live Site Link : https://corporate-event-manageme-92f84.web.app/
+### Live Site Link : https://corporate-event-manageme-92f84.web.app/
 
-# Explanation 5 features of my project:
+### Explanation 5 features of my project:
 
 * introduction: 
 My project name is `corporate event management`. When a user come to my project
@@ -37,7 +37,7 @@ When a user try to `registration` and in the time of `put` his `password` he/she
 `6 characte`r, `a capital letter` and `a special letter`.If the user will not put at least 
 `6 character` , `a capital letter` and `a special letter` then show a `sweet alert` `Please should be at least 
 6 character, a capital letter and a special letter.`
-## Technologies: 
+### Technologies: 
 * I used some technology in this project such as JavaScript as programming language, React.js, Tailwind css, DaisyUI as front-end.
 * In this project I used some package like `aos`, `react-dom`, `react-router-dom`, `react-hook-form`, `react-icons`,`sweetalert2` etc.
 * The client side deployed in firebase.
