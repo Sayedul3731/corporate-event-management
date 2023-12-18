@@ -3,7 +3,7 @@
 
 ### Explanation 5 features of my project:
 
-* introduction: 
+* Introduction: 
 My project name is `corporate event management`. When a user come to my project
  then he/she will see a `navbar` which 4 pages `Home`, `Services`, `Our Works`,
 `Location` and will see a `Login` button in the right side and a `logo` in the left
